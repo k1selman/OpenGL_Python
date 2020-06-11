@@ -83,7 +83,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-                
+            #code below makes the cube move in the direction that pressed key is representing
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_UP:
                     glTranslatef(0.0, 1.0, 0.0)
@@ -94,7 +94,7 @@ def main():
                 if event.key == pygame.K_RIGHT:
                     glTranslatef(0.5, 0.0, 0.0)
 
-        glRotatef(1, 3, 20, 5)
+        glRotatef(1, 3, 20, 5) #Cube is rotating
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         Cube()
         pygame.display.flip()
