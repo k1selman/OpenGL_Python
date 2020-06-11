@@ -53,7 +53,7 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-
+        glRotatef(1, 10, 3, 5) #Now the cube is rotating
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         Cube()
         pygame.display.flip()
