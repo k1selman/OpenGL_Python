@@ -39,7 +39,8 @@ surfaces = (
     (4, 0, 3, 6)
 )
 
-colors = (
+#todo: add more variations below
+colors = (                      
     (0, 0, 0),
     (0, 0, 1),
     (0, 1, 0),
@@ -84,7 +85,7 @@ def main():
                 pygame.quit()
                 quit()
 
-        glRotatef(1, 3, 20, 5)
+        glRotatef(1, 3, 20, 5)          #Now the cube is rotating
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         Cube()
         pygame.display.flip()
