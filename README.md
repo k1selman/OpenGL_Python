@@ -8,3 +8,7 @@ Things I am doing using OpenGL in Python.
 **Libraries used:** OpenGL for Python, pygame
 
 Simple rotating cube with added colors and basic movement (up,down,right,left) so you can make the cube move around.
+
+In order to run it:
+
+**1.** Compile the source code and run.
