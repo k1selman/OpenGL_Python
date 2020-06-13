@@ -1,7 +1,7 @@
 # OpenGL in Python
 Things I am doing using OpenGL in Python.
 
-**Idea/goal:** Learn OpenGL properly through some, more or less exciting exercises/small projects.
+**Idea/goal:** Learn OpenGL properly through some (more or less exciting) exercises/small projects.
 
 
 ## Cube
