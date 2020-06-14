@@ -9,6 +9,8 @@ Things I am doing using OpenGL in Python.
 
 Simple rotating cube with added colors and basic movement (up,down,right,left) so you can make the cube move around.
 
+![](cube.png)
+
 **In order to run it one will have to:**
 
 **1.** Compile and run the source code.
