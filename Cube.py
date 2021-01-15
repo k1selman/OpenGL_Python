@@ -94,7 +94,7 @@ def main():
                 if event.key == pygame.K_RIGHT:
                     glTranslatef(0.5, 0.0, 0.0)
 
-        glRotatef(1, 3, 20, 5) #Cube is rotating
+        glRotatef(1, 3, 20, 5) #To make the cube rotate
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         Cube()
         pygame.display.flip()
